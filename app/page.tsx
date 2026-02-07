@@ -9,6 +9,7 @@ import { FAQ } from "@/components/sections/faq"
 import { Consultation } from "@/components/sections/consultation"
 import { CTA } from "@/components/sections/cta"
 import { Footer } from "@/components/sections/footer"
+import { FloatingCTA } from "@/components/ui/floating-cta"
 
 export default function Page() {
   return (
@@ -25,6 +26,7 @@ export default function Page() {
         <Consultation />
         <CTA />
       </main>
+      <FloatingCTA />
       <Footer />
     </>
   )

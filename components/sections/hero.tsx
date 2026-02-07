@@ -1,6 +1,7 @@
 "use client"
 
 import { ArrowDown } from "lucide-react"
+import { Counter } from "@/components/ui/counter"
 
 export function Hero() {
   return (
@@ -62,21 +63,36 @@ export function Hero() {
         {/* Trust indicators */}
         <div className="animate-hero-fade-in-delay-3 mt-20 flex flex-wrap items-center justify-center gap-8 text-primary-foreground/40">
           <div className="flex flex-col items-center">
-            <span className="font-serif text-2xl text-accent">15+</span>
+            <Counter
+              value={15}
+              suffix="+"
+              className="font-serif text-2xl text-accent"
+              delay={0.5}
+            />
             <span className="mt-1 text-[10px] uppercase tracking-widest">
               Years Experience
             </span>
           </div>
           <div className="h-8 w-px bg-primary-foreground/10" />
           <div className="flex flex-col items-center">
-            <span className="font-serif text-2xl text-accent">2,500+</span>
+            <Counter
+              value={2500}
+              suffix="+"
+              className="font-serif text-2xl text-accent"
+              delay={0.7}
+            />
             <span className="mt-1 text-[10px] uppercase tracking-widest">
               Cases Resolved
             </span>
           </div>
           <div className="h-8 w-px bg-primary-foreground/10" />
           <div className="flex flex-col items-center">
-            <span className="font-serif text-2xl text-accent">98%</span>
+            <Counter
+              value={98}
+              suffix="%"
+              className="font-serif text-2xl text-accent"
+              delay={0.9}
+            />
             <span className="mt-1 text-[10px] uppercase tracking-widest">
               Success Rate
             </span>

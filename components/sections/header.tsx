@@ -24,11 +24,10 @@ export function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled
-          ? "bg-primary/95 backdrop-blur-md shadow-lg"
-          : "bg-transparent"
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled
+          ? "bg-primary/80 backdrop-blur-xl shadow-[0_8px_32px_rgba(0,0,0,0.12)] border-b border-primary-foreground/5 py-2"
+          : "bg-transparent py-4"
+        }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
         {/* Logo */}
@@ -89,9 +88,8 @@ export function Header() {
 
       {/* Mobile Menu */}
       <div
-        className={`overflow-hidden transition-all duration-500 lg:hidden ${
-          mobileOpen ? "max-h-96 border-t border-accent/20" : "max-h-0"
-        }`}
+        className={`overflow-hidden transition-all duration-500 lg:hidden ${mobileOpen ? "max-h-96 border-t border-accent/20" : "max-h-0"
+          }`}
       >
         <nav className="flex flex-col gap-1 bg-primary/95 px-6 py-4 backdrop-blur-md">
           {navLinks.map((link) => (
