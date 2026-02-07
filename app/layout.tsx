@@ -26,13 +26,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   icons: {
-    icon: [
-      { url: "/favicon.ico" },
-      { url: "/icon.png", type: "image/png" },
-    ],
-    apple: [
-      { url: "/apple-icon.png" },
-    ],
+    icon: "/favicon.png",
   },
   openGraph: {
     title: "Northway Immigration Counsel | Distinguished Immigration Law Firm",
