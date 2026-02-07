@@ -9,7 +9,7 @@ const navLinks = [
   { label: "Why Us", href: "#why-us" },
   { label: "Testimonials", href: "#testimonials" },
   { label: "FAQ", href: "#faq" },
-  { label: "Contact", href: "#contact" },
+  { label: "Contact", href: "#consultation" },
 ]
 
 export function Header() {
@@ -69,7 +69,7 @@ export function Header() {
             <span>+1 (234) 567-890</span>
           </a>
           <a
-            href="#contact"
+            href="#consultation"
             className="rounded-sm border border-accent bg-accent px-5 py-2.5 text-xs font-semibold uppercase tracking-wider text-accent-foreground transition-all duration-300 hover:bg-accent/90"
           >
             Book Consultation
@@ -105,7 +105,7 @@ export function Header() {
             </a>
           ))}
           <a
-            href="#contact"
+            href="#consultation"
             onClick={() => setMobileOpen(false)}
             className="mt-3 rounded-sm border border-accent bg-accent px-5 py-2.5 text-center text-xs font-semibold uppercase tracking-wider text-accent-foreground transition-all duration-300 hover:bg-accent/90"
           >

@@ -45,7 +45,7 @@ export function Hero() {
         {/* CTA Group */}
         <div className="animate-hero-fade-in-delay-3 mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
-            href="#contact"
+            href="#consultation"
             className="group relative inline-flex items-center gap-2 overflow-hidden rounded-sm bg-accent px-8 py-4 text-xs font-semibold uppercase tracking-wider text-accent-foreground transition-all duration-300 hover:shadow-lg hover:shadow-accent/20"
           >
             <span className="relative z-10">Schedule Your Consultation</span>

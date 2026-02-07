@@ -120,7 +120,7 @@ export function WhyUs() {
               </div>
               <div className="mt-10">
                 <a
-                  href="#contact"
+                  href="#consultation"
                   className="inline-flex w-full items-center justify-center rounded-sm bg-primary px-6 py-3.5 text-xs font-semibold uppercase tracking-wider text-primary-foreground transition-all duration-300 hover:bg-primary/90"
                 >
                   Begin Your Assessment
