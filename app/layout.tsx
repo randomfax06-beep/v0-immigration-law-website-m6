@@ -56,6 +56,8 @@ export const metadata: Metadata = {
   },
 }
 
+import ChatWidget from "./components/ChatWidget"
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -63,7 +65,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
-      <body className="font-sans antialiased">{children}</body>
+      <body className="font-sans antialiased">
+        {children}
+        <ChatWidget />
+      </body>
     </html>
   )
 }
