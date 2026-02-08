@@ -61,7 +61,7 @@ export function Hero() {
         </div>
 
         {/* Trust indicators */}
-        <div className="animate-hero-fade-in-delay-3 mt-20 flex flex-wrap items-center justify-center gap-8 text-primary-foreground/40">
+        <div className="animate-hero-fade-in-delay-3 mt-20 flex flex-wrap items-center justify-center gap-y-10 gap-x-8 text-primary-foreground/40 sm:gap-x-12">
           <div className="flex flex-col items-center">
             <Counter
               value={15}
@@ -69,11 +69,11 @@ export function Hero() {
               className="font-serif text-2xl text-accent"
               delay={0.5}
             />
-            <span className="mt-1 text-[10px] uppercase tracking-widest">
+            <span className="mt-1 text-[10px] uppercase tracking-widest text-balance text-center">
               Years Experience
             </span>
           </div>
-          <div className="h-8 w-px bg-primary-foreground/10" />
+          <div className="hidden h-8 w-px bg-primary-foreground/10 sm:block" />
           <div className="flex flex-col items-center">
             <Counter
               value={2500}
@@ -81,11 +81,11 @@ export function Hero() {
               className="font-serif text-2xl text-accent"
               delay={0.7}
             />
-            <span className="mt-1 text-[10px] uppercase tracking-widest">
+            <span className="mt-1 text-[10px] uppercase tracking-widest text-balance text-center">
               Cases Resolved
             </span>
           </div>
-          <div className="h-8 w-px bg-primary-foreground/10" />
+          <div className="hidden h-8 w-px bg-primary-foreground/10 sm:block" />
           <div className="flex flex-col items-center">
             <Counter
               value={98}
